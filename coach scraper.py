@@ -56,6 +56,7 @@ for link in productlinks:
     data={'sku':sku,'price':price,'image':image,'url':link}
     list.append(data)
 
-list
+print(list)
+
 df = pd.DataFrame(list)
 df.to_clipboard()
